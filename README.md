@@ -4,11 +4,11 @@ Svelte + TypeScript + tailwindcssで本検索サイトのチュートリアル�
 
 本の検索ページ
 
-![](https://storage.googleapis.com/zenn-user-upload/ba5vxpql4r6z7wbny0fxjinw4pjq)
+![book-list](https://storage.googleapis.com/zenn-user-upload/ba5vxpql4r6z7wbny0fxjinw4pjq)
 
 本の詳細ページ
 
-![](https://storage.googleapis.com/zenn-user-upload/h16m1hmej75m4qd3lu4uwj1o9b10)
+![book-details](https://storage.googleapis.com/zenn-user-upload/h16m1hmej75m4qd3lu4uwj1o9b10)
 
 
 
