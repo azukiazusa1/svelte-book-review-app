@@ -1,4 +1,5 @@
 <script lang="ts">
+  import BookInfo from '../components/BookInfo.svelte'
   import Spinner from "../components/Spinner.svelte";
   import type { Readable } from "svelte/store";
   import type { BookItem } from "../repositories/book";
@@ -28,7 +29,7 @@
       <Spinner />
     </div>
   {:then}
-    {$book.volumeInfo.title}
+    <BookInfo book={$book} />
   {:catch e}
     <span class="text-red-600 text-sm">
       {e.message}
