@@ -38,12 +38,13 @@
 
   const getNextPage = async () => {
     const result = await BookRepository.get({ q, startIndex })
+
+    // 取得データが既に存在するものを含む可能性があるので、フィルタリングしてます。
     const bookIds = books.map(book => book.id)
     const filteredItems = result.items.filter(item => {
       return !bookIds.includes(item.id)
     })
     books = [...books, ...filteredItems]
-    console.log(books)
   }
 </script>
 
