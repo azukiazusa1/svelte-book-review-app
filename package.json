@@ -30,6 +30,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "sirv-cli": "^1.0.0",
+    "svelte-infinite-scroll": "^1.5.2",
     "svelte-spa-router": "^3.1.0"
   }
 }
