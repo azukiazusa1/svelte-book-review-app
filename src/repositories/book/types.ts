@@ -22,14 +22,14 @@ export interface BookItem {
       smallThumbnail: string;
       thumbnail: string;
     };
-    pageCount: number
-    previewLink?: string
-    saleInfo?: {
-      listPrice: {
-        amount: number;
-      };
+    pageCount: number;
+    previewLink?: string;
+  };
+  saleInfo?: {
+    listPrice: {
+      amount: number;
     };
-  }
+  };
 }
 
 /**
