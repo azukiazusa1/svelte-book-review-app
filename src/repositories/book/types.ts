@@ -15,7 +15,7 @@ export interface BookItem {
   volumeInfo: {
     title: string;
     authors?: string[];
-    publishedData?: string;
+    publishedDate?: string;
     description?: string;
     publisher?: string;
     imageLinks?: {
